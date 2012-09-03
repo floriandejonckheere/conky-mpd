@@ -8,6 +8,7 @@
 
 ## CONFIGURATION ##
 # Folder for cached album art
+# Don't use ~, as conky will treat it as a regular directory name
 CACHE="$HOME/.covers"
 # API Key for Last.fm
 APIKEY="b25b959554ed76058ac220b7b2e0a026"
