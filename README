@@ -1,0 +1,11 @@
+conky-mpd
+=========
+
+Small conky setup that displays the current playing song info and cover art on the desktop. It fetches the covers from Last.fm.
+conkyrc-mpd is based on the "Conky panel and MPD cover art" by SuNjACk94 (see http://sunjack94.deviantart.com/gallery/#/d2jvuuh)
+The overlay image is taken from the covergloobus project, theme LucidDark.
+
+Please change the APIKEY variable in cover.sh to your own API key.
+
+The CoverGloobus project is licensed under the GPLv3 License, see the COPYING file.
+The Conky panel and MPD cover art project is licensed under the Creative Commons Attribution NonCommercial 3.0 Unported license, see http://creativecommons.org/licenses/by-nc/3.0/.
