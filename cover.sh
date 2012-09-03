@@ -55,7 +55,7 @@ convert /tmp/cover.jpg -resize 366 /tmp/cover.png >> $LOG
 # Enlarge canvas to fit overlay
 convert /tmp/cover.png -background none -extent 500x455-84-44 /tmp/cover.png >> $LOG
 # Overlay overlay over cover
-convert /tmp/cover.png case.png -composite /tmp/cover.png >> $LOG
+convert /tmp/cover.png $HOME/.conky/conky-mpd/case.png -composite /tmp/cover.png >> $LOG
 # Resize for immediate use
 convert /tmp/cover.png -resize 120 /tmp/conkyCover.png >> $LOG
 # Set current artist
