@@ -31,7 +31,7 @@ TMP=/tmp/conkympd.tmp
 echo "Artist changed: $ALBUM by $ARTIST" >> $LOG
 
 #[ -f "/tmp/conkyCover.png" ] && rm "/tmp/conkyCover.png"
-cp nocover.png /tmp/conkyCover.png
+cp $HOME/.conky/conky-mpd/nocover.png /tmp/conkyCover.png
 echo "NoCover" >> $LOG
 
 COVER="$CACHE/$ARTIST - $ALBUM.jpg"
